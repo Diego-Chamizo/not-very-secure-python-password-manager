@@ -24,6 +24,6 @@ This project is also not very rich feature-wise.
 
 ## Getting Started
 ```bash
-git clone https://github.com/TheAmazingCabbage/secure-python-password-manager
+git clone https://github.com/Diego-Chamizo/secure-python-password-manager
 pip install cryptography argon2-cffi
 python main.py
