@@ -4,7 +4,7 @@ A small cryptographically secure password manager written in python for use in t
 ## What security does it use, how is it secure?
 This password manager:
 - Encrypts data using AES-256-GCM
-- Uses a key derived from Argon2id using master password and a randomly generated salt
+- Uses a key derived from Argon2id using the master password and a randomly generated salt
 - Encrypts data with a nonce in order to avoid relay attacks
 - Uses atomic file writes to avoid data corruption
 
