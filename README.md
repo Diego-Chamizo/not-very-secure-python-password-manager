@@ -1,10 +1,10 @@
-# Secure-Python-Password-Manager
-A small cryptographically secure password manager written in python for use in the command line.
+# Not-Very-Secure-Python-Password-Manager
+A small slightly cryptographically secure password manager written in python for use in the command line.
 
-## What security does it use, how is it secure?
+## What security does it use, how is it slightly secure?
 This password manager:
 - Encrypts data using AES-256-GCM
-- Uses a key derived from Argon2id using the master password and a randomly generated salt
+- Uses a key derived from Argon2id using the master password and a randomly generated salt (weak argon2 params)
 - Encrypts data with a nonce in order to avoid relay attacks
 - Uses atomic file writes to avoid data corruption
 
