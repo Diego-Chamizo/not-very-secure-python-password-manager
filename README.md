@@ -18,7 +18,7 @@ This password manager:
 
 ## Should I use this password manager?
 This project is a hobby project made by a 15-year-old and is not intended for production use.
-While it does have very good encryption, it has not been audited.
+While it does have very okay encryption, it has not been audited.
 This project is also not very rich feature-wise.
 **Use at your own risk**
 
